@@ -1,0 +1,75 @@
+single line // 
+multi line /**/ 
+
+
+variable? its a data name which can hold values , values can be change 
+
+data type ? 
+    char int float double
+    long double 
+
+    int -> can hold posive values and negative values 
+
+    what if we want to store only posive values? 
+    unsigned int x;
+
+    unsigned -> this indicates compiler that we have to store values wihtout sign - no negative values allowed 
+
+    by default int is ->  signed int -> so you can store both positive and negative 
+
+    char => %c 
+    int => %d 
+    float => %f 
+    double => %lf 
+    unsigned int => %u  
+---------------------------------------------------------------------------
+
+
+create a c program that read two numbers from user and perform addition of it.
+-> printf scanf int variable compile run 
+
+create a c program that read 1 number from user and it print num is odd or even.
+if and modulo opertator 
+
+create a c program that print your name n time , n is value read from user. 
+
+------------------------------------------------------------------------------ 
+
+int a[5] => 5 items -> integer 
+
+array is a collection of same type of data type 
+
+
+student's info ->
+            studentId int 
+            name  char[]
+            maths int 
+            sci   int 
+            eng   int 
+            percentage float  
+
+
+structure -> is a collection of diff type of data 
+
+
+typedef unsigned int ui;
+typedef printf pf;  
+
+int main(){
+    unsigned int x; 
+    ui y; 
+    pf("hi");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
